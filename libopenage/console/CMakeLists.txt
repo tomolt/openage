@@ -3,4 +3,9 @@ add_sources(libopenage
 	console.cpp
 	draw.cpp
 	tests.cpp
+	interpreter.cpp
+)
+
+pxdgen(
+	interpreter.h
 )

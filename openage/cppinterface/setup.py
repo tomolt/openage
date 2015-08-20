@@ -41,6 +41,9 @@ def setup():
     from ..util.fslike.cpp import setup as fslike_setup
     fslike_setup()
 
+    from ..console.interpreter import setup as interpreter_setup
+    interpreter_setup()
+
     # verify that everything has been properly initialized.
     from .setup_checker import check
     check()

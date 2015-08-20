@@ -12,6 +12,7 @@ add_py_modules(
 
 add_subdirectory(cabextract)
 add_subdirectory(codegen)
+add_subdirectory(console)
 add_subdirectory(convert)
 add_subdirectory(cppinterface)
 add_subdirectory(game)
